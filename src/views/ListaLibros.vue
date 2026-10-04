@@ -99,7 +99,6 @@
             v-show="nuevoLibro.titulo || nuevoLibro.autor || nuevoLibro.descripcion"
             class="datos-tiempo-real"
           >
-            <h3 class="tiempo-real-titulo">Datos en tiempo real (v-model):</h3>
             <div class="tiempo-real-cuerpo">
               <p><strong>Título:</strong> {{ nuevoLibro.titulo || '—' }}</p>
               <p><strong>Autor:</strong> {{ nuevoLibro.autor || '—' }}</p>
