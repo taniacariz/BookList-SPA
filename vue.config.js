@@ -5,6 +5,7 @@ module.exports = defineConfig({
   publicPath: process.env.NODE_ENV === 'production'
     ? '/BookList-SPA/'
     : '/',
+  outputDir: 'docs',
   devServer: {
     port: 8080,
     historyApiFallback: true
